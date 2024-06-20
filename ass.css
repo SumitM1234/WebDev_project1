@@ -1,0 +1,136 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background:rgb(29, 29, 71);
+    color: #f8fafb;
+    padding: 10px 20px;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    margin-left: 20px
+}
+nav a{
+    color: #ebf0f5;
+    text-decoration: dotted;
+}
+.hero{
+    text-align: center;
+    padding: 100px 20px;
+    background: #e4e7eb;
+}
+.hero .cta-button{
+    display: inline-block;
+    padding: 10px 20px;
+    background:rgb(29, 29, 71);
+    background:rgb(29, 29, 71);
+    color: #f8fafb;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#pricing {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.pricing-plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.plan {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.plan h3 {
+    margin-top: 0;
+}
+
+.plan-button {
+    display: block;
+    padding: 10px 0;
+    background:rgb(29, 29, 71);
+    
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#faq {
+    padding: 50px 20px;
+    background: #f4f4f4;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-question {
+    cursor: pointer;
+}
+
+.faq-answer {
+    display: none;
+    margin-top: 10px;
+}
+
+#contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    padding: 10px 20px;
+    background:rgb(29, 29, 71);
+
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background:rgb(29, 29, 71);
+
+    color: #fff;
+}
+
